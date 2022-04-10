@@ -1,0 +1,9 @@
+Kaseya Ransomware attack - July 2 July 16th - 2021:
+
+Kaseya is a Remote Monitoring and Management (RMM) platform. It is used by MSPs, for remote monitoring and managment. It is mainly used for Endpoint security.
+
+The attack affected over 50 MSPs that use Kaseya. Each MSP supported companies. The total companies affected ranged between 800 and 1500 respectively. However, this was only 0.001% of Kaseya's total consumer base.
+
+REvil, the ransomware-as-a-service supplier, was resposnsible for the attack. They sold a Zero-Day exploit that was used in the attack.
+
+Kaseya has done nothing as far as I am aware to prevent this from happening in the future, aside from patching the then-Zero-Day exploit. Zero-days are unknown threats, so, they can not fix software vulnerabilities they do not know about.

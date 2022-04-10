@@ -1,0 +1,23 @@
+
+Encryption:
+take input: hello
+Convert to Hex: 68 65 6c 6c 6f
+Adding 1 from any numerical digit: 79 76 7c 7c 7f
+Convert resulting number back to Hex: yv||
+Note: There is No digit rollover: adding 1 to 9 becomes 0. Subtracting 1 from 0 becomes 9.
+
+Decryption:
+Take ciphertext: yv||
+Convert to Hex: 79 76 7c 7c 7f
+Subtracting 1 to any numerical digit: 68 65 6c 6c 6f
+Take resulting value and convert it From Hex: hello
+
+Input: I love cryptography!
+To Hex: 49 20 6c 6f 76 65 20 63 72 79 70 74 6f 67 72 61 70 68 79 21
+Added:  50 31 7c 7f 87 76 31 74 83 80 81 85 7f 78 83 72 81 79 80 32
+From Hex (Ciphertext): P1|v1txry2
+
+Ciphertext: 50 31 7c 7f 87 76 31 74 83 80 81 85 7f 78 83 72 81 79 80 32
+Subtracted: 49 20 6c 6f 76 65 20 63 72 79 70 74 6f 67 72 61 70 68 79 21
+From Hex: I love cryptography!
+
